@@ -13,3 +13,6 @@
    
 3. https://www.kaggle.com/debanga/facial-expression-recognition-challenge?select=metadata_processed.csv, 
    a. label_map = ['Anger','Disgust','Fear','Happy','Sad','Surprise','Neutral']
+   
+   
+## Proposal 2
