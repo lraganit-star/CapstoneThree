@@ -1,6 +1,6 @@
 # Proposals
 
-##Proposal 1
+## Proposal 1
 
 
 1. https://www.kaggle.com/ahmedmoorsy/facial-expression, label_map = ['Anger', 'Fear', 'Happy', 'Sad']
