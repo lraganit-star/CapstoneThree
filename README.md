@@ -3,6 +3,9 @@
 ## Proposal 1
 
 
-1. https://www.kaggle.com/ahmedmoorsy/facial-expression, label_map = ['Anger', 'Fear', 'Happy', 'Sad']
-2. https://www.kaggle.com/mahmoudima/mma-facial-expression, label_map = ['Anger','Disgust','Fear','Happy','Neutral','Sad','Surprise']
-3. https://www.kaggle.com/debanga/facial-expression-recognition-challenge?select=metadata_processed.csv, label_map = ['Anger','Disgust','Fear','Happy','Sad','Surprise','Neutral']
+1. https://www.kaggle.com/ahmedmoorsy/facial-expression, 
+   a. label_map = ['Anger', 'Fear', 'Happy', 'Sad']
+3. https://www.kaggle.com/mahmoudima/mma-facial-expression, 
+   a. label_map = ['Anger','Disgust','Fear','Happy','Neutral','Sad','Surprise']
+5. https://www.kaggle.com/debanga/facial-expression-recognition-challenge?select=metadata_processed.csv, 
+   a. label_map = ['Anger','Disgust','Fear','Happy','Sad','Surprise','Neutral']
