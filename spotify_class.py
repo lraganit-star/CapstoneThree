@@ -20,10 +20,10 @@ class playlist:
                                     client_secret= cred.client_SECRET, 
                                     redirect_uri= cred.redirect_uri'))            
         
-        self.angry = pd.read_csv('angry.csv', index_col = 'uri')
-        self.happy = pd.read_csv('happy.csv', index_col = 'uri')
-        self.neutral = pd.read_csv('neutral.csv', index_col = 'uri')
-        self.sad = pd.read_csv('sad.csv', index_col = 'uri')
+        self.angry = pd.read_csv('emotions/angry.csv', index_col = 'uri')
+        self.happy = pd.read_csv('emotions/happy.csv', index_col = 'uri')
+        self.neutral = pd.read_csv('emotions/neutral.csv', index_col = 'uri')
+        self.sad = pd.read_csv('emotions/sad.csv', index_col = 'uri')
 
         self.username = username
         self.playlist_id = playlist_id
