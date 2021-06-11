@@ -19,7 +19,7 @@ The mood maker is a program that is able to detect 4 different emotions using th
 
 # Components
 ## Creating the Emotion Model
-The Emotion model that 
+In order to create a program that can detect emotions, we have to teach a computer how the facial expressions on a person's face changes as they go through the four different indicated emotions. This is done by feeding multiple images of each of the different expressions and creating a convolutional neural network. This part has an assumption built into the model. Not everybody expresses their emotions the same way especially outwardly on their face. The images that get fed into the CNN are going to be stereotypical in the sense that the faces within the images are going to be smiling when happy and frowning when sad. 
 
 ## Connecting to Webcamera
 
