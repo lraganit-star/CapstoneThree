@@ -33,3 +33,5 @@ In order to create a program that can detect emotions, we have to teach a comput
 
 
 # How to use
+![](user_uri.png)
+![](playlist_uri.png)
