@@ -15,7 +15,3 @@ playlist_id = input("Enter playlist id: ")
 emo = cv2_trial
 print(emo)
 pl = sc.playlist(username = username, playlist_id = playlist_id, emo = emo)
-
-
-# niki = get_playlist_tracks(username = '1238338842',
-                           #playlist_id = 'spotify:playlist:37i9dQZF1EpkhImEQWvPYp')
