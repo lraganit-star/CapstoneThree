@@ -39,7 +39,7 @@ I had based my final CNN model from AlexNet. From the baseline AlexNet, my accur
 Classes: 4 (Happy, Sad, Neutral, Angry)
 
 
-Loss: categorical crossentropy
+Loss: Categorical Crossentropy
 
 
 Optimizer: Adam
@@ -52,6 +52,21 @@ Optimizer: Adam
 ## Creating the Spotify Recommender System
 
 ### Data
+I had found playlists that had songs which had matched each of my 4 emotions. For example, for happy songs, I used a dance, upbeat playlist and for angry, I had used a intense and loud playlist. I am aware that these playlists are created from my personal bias as to what I want to listen to when I'm experiencing these specific emotions and that from person-to-person. The preferences for what other people might want to listen to are not the same as mine, but rather it's a generalization of the songs usually listened to when these emotions are being felt. 
+
+
+Spotify has a machine learning algorithm that calculates different variables for each of the songs. The variables are:
+* Danceability
+* Energy
+* Loudness
+* Speechiness
+* Acousticness
+* Instrumentalness
+* Liveness
+* Valence
+* Tempo
+
+
 
 
 
