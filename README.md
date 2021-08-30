@@ -37,8 +37,12 @@ I had based my final CNN model from AlexNet. From the baseline AlexNet, my accur
 ### Metrics used
 
 Classes: 4 (Happy, Sad, Neutral, Angry)
+
+
 Loss: categorical crossentropy
-optimizer: Adam
+
+
+Optimizer: Adam
 
 
 ## Connecting to Webcamera
