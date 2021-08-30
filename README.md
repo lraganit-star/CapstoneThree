@@ -28,12 +28,29 @@ In order to create a program that can detect emotions, we have to teach a comput
 
 https://www.kaggle.com/mahmoudima/mma-facial-expression
 
+
+### Formulating my best model
+
+I had based my final CNN model from AlexNet. From the baseline AlexNet, my accuracy had improved 11% with the improvements I had done. The changes I made were tailored around the 48x48 pixel size of my images. In order to get the best results, I had added convolutional layers. This allowed my neural net to learn more about the images and to determine which weights and biases could be changed in order to find the minimum of my cost function. Next, I had reduced the amount of pooling layers. Since pooling layers are there to decrease the run time of the neural net but combining pixels, that wasn't as crucial with my dataset since my images were already small. Lastly, I had increased the amount of droupout layers I had. There is a higher chance of overfitting for my model with the increased amount of convolutional layers, so adding the droupout layers will prevent that when getting the accuracy of my model. 
+
+
+### Metrics used
+
+Classes: 4 (Happy, Sad, Neutral, Angry)
+Loss: categorical crossentropy
+optimizer: Adam
+
+
 ## Connecting to Webcamera
 
+### CV2 and openCV
 
-## Spotify Recommender System
+## Creating the Spotify Recommender System
+
+### Data
+
 
 
 # How to use
-![](user_uri.png)
-![](playlist_uri.png)
+![](images/user_uri.png)
+![](images/playlist_uri.png)
